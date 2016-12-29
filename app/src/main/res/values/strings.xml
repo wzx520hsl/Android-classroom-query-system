@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">BUPT Classroom</string>
+
+    <string name="menu_user_userinfo">User Information</string>
+    <string name="menu_free_rooms">Empty Classrooms</string>
+    <string name="menu_about">Application Instructions</string>
+    <string name="menu_loginout">Logout</string>
+
+    <string name="user_avatar">User Avatar</string>
+    <string name="user_student">Students</string>
+    <string name="user_teacher">Teachers</string>
+
+    <string name="network_error">Connection Error</string>
+    <string name="dialog_OK">Confirm</string>
+    <string name="dialog_Cancel">Cancel</string>
+    <string name="dialog_error_title">Error</string>
+    <string name="dialog_message_title">Hint</string>
+    <string name="dialog_message_success">Success</string>
+    <string name="dialog_text_wait">Please Wait</string>
+    <string name="login_input_username">Please enter your username</string>
+    <string name="login_input_nickname">Please enter your nickname</string>
+    <string name="login_input_tel">Please enter your phone number</string>
+    <string name="login_input_user_password">Please enter your password</string>
+    <string name="login_input_manager_code">Please enter the teacher code</string>
+    <string name="login_button_login">Login</string>
+    <string name="pwd_remember">Remember the password</string>
+    <string name="login_button_register">Register account</string>
+    <string name="login_button_forget_password">Forget Password</string>
+    <string name="error_login_error">Login failed，Please confirm the network and and username and passwords</string>
+    <string name="forget_password_find_password_button">Send e-mail</string>
+    <string name="forget_password_send_email">E-mail has been sent</string>
+    <string name="forget_password_email_error">Error，Please confirm your email address</string>
+    <string name="register_input_user_password_again">Please retype in your password</string>
+    <string name="register_input_user_email">Please enter your e-mail address</string>
+    <string name="error_register_password_not_equals">Passwords are not match，Please enter again</string>
+    <string name="error_register_password_null">Passwords cannot be empty</string>
+    <string name="error_register_user_name_null">Username cannot be empty</string>
+    <string name="error_register_email_address_null">E-mail cannot be empty</string>
+    <string name="error_register_user_name_repeat">Username has been registered，Please enter again</string>
+    <string name="error_register_email_repeat">E-mail has been registered，please change e-mail</string>
+    <string name="error_register_manager_codeerror">Check code error</string>
+    <string name="success_register_success">Registration success</string>
+    <string name="loginout_info">Are you sure to logout?</string>
+    <string name="exit_again">Press the back again to logout of the appilcation</string>
+    <string name="loginout">Logout current account</string>
+    <string name="about_info">Application instruction:
+    \nBUPT Classroom
+	\n\nBasic functions:
+	\nRegistration and login module:Users should register before use this application;
+	\n\nMain Module:Main module use the dragLayout;
+	\n\nEmpty Classroom Module:Use Jsoup to get the empty classroom information from BUPT website;
+	\n\nComment module:Users can comment on each classroom, and the comments will shared by all the users;
+	\n\nChat room module:All the online users will be able to chat with others in different classroom;
+	\n\nServer side:Use LeanCloud to provide web service,including data storage and message sending;
+	\n\nAuthor:
+	\nJoint Programme of BUPT and QMUL
+	\nTelecommunication Engineering with Management
+	\nZixi Wang  work in 2016</string>
+
+    <string name="account_myusername">Username:\n%1$s</string>
+    <string name="account_mynickname">Nickname:\n%1$s</string>
+    <string name="account_phone">Phone number:\n%1$s</string>
+
+    <string name="account_mynickname_title">Edit nickname</string>
+    <string name="account_mynickname_hint">Please enter you Nickname</string>
+    <string name="account_mynickname_null">Nickname cannot be blank</string>
+    <string name="account_phone_title">Edit phone number</string>
+    <string name="account_phone_hint">Please enter new phone number</string>
+    <string name="account_phone_null">Phone number cannot be empty</string>
+    <string name="account_loading">Synchronizing data</string>
+    <string name="acount_submit">Submit</string>
+    <string name="acount_modify_succ">Success!</string>
+    <string name="acount_modify_failed">Fail!</string>
+
+    <string name="acount_modify_avatar_succ">Success!</string>
+    <string name="acount_modify_avatar_failed">Fail!</string>
+
+    <string name="menu_title_choice">Please choose your action to %1s</string>
+    <string name="menu_mark">Classroom comment</string>
+    <string name="menu_chat">Classroom chat</string>
+
+    <string name="rank_by_time">Order by time</string>
+    <string name="rank_by_rate">Order by rate</string>
+
+    <string name="mark_empty_business">No comments now</string>
+
+    <string name="mark_empty">No comments now\nSubmit your comment here!</string>
+    <string name="mark_info_hint">Please enter your comment</string>
+    <string name="mark_submit">Submit comment</string>
+
+    <string name="mark_info">Comment:%1s</string>
+    <string name="mark_size">%1s comments</string>
+    <string name="mark_size_empty">No comments</string>
+    <string name="short_introduce">Instruction:</string>
+
+    <string name="data_add">Add data</string>
+    <string name="data_update">Refresh data</string>
+    <string name="data_del">Delete data</string>
+
+    <string name="chat_location_activity_send">Send</string>
+    <string name="chat_getGeoInfoFailed">Fail to get the location!</string>
+    <string name="chat_geoIsSame">Get the same location</string>
+    <string name="chat_location_mapKeyErrorTips">key verify fail! Please check your key in AndroidManifest.xml</string>
+    <string name="chat_reverseGeoCodeResultIs">Location of the re-code：</string>
+    <string name="chat_cannotGetYourAddressInfo">Cannot get your location information！</string>
+
+    <string name="conversation_Members">Users of the chat room</string>
+    <string name="conversation_quitGroup">Quit the chat room</string>
+    <string name="conversation_quit_group_tip">Are you sure to quite the chat room？</string>
+    <string name="conversation_alreadyQuitConv">Have quit the chat room</string>
+
+    <string name="contact_detailInfo">Detailed information</string>
+    <string name="conversation_online_members">Online users</string>
+
+    <string name="contact_personalInfo">Personal information</string>
+    <string name="common_sure">Confirm</string>
+    <string name="contact_account">Account </string>
+
+</resources>

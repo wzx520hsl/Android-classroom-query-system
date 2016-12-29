@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_ly"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/record_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp" >
+
+    <TextView
+        android:id="@+id/tx_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/mark_info"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+    <RatingBar
+        android:id="@+id/view_ratingbar"
+        style="@style/ChoseRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:numStars="5"
+        android:rating="3.5"
+        android:stepSize="0.5" />
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_round"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:hint="@string/mark_info_hint"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dip"
+        android:text="@string/mark_submit"
+        android:textSize="16sp" />
+
+</LinearLayout>

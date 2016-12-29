@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+	<string-array name="user_menu">
+		<item>@string/menu_user_userinfo</item>
+		<item>@string/menu_free_rooms</item>
+		<item>@string/menu_about</item>
+		<item>@string/menu_loginout</item>
+	</string-array>
+
+    
+</resources>

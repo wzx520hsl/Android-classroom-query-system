@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">LeanChatLib</string>
+    <string name="chat_base_list_view_listEmptyHint">No data</string>
+    <string name="chat_base_list_view_noMore">No more</string>
+    <string name="chat_utils_tips">Inform</string>
+    <string name="chat_utils_please_choose">Please select</string>
+    <string name="chat_utils_share">share</string>
+    <string name="chat_utils_right">OK</string>
+    <string name="chat_utils_hardLoading">Loading...</string>
+    <string name="chat_common_cancel">Cancel</string>
+    <string name="chat_bottom_record_layout_pressToRecord">Press to Record</string>
+    <string name="chat_sending">Sending</string>
+    <string name="chat_received">Received</string>
+    <string name="chat_common_emptyStr" />
+    <string name="chat_common_avatar">Avatar</string>
+    <string name="chat_common_username">Username</string>
+    <string name="chat_common_nickname">Nickname</string>
+    <string name="chat_common_please_input_hint">Please enter{0}</string>
+    <string name="chat_common_change_title">{0}</string>
+    <string name="chat_sent">Have sent</string>
+    <string name="chat_failed">Fail</string>
+    <string name="chat_newMessage">New messages</string>
+    <string name="chat_image">Picture</string>
+    <string name="chat_cancelRecord">Cancel Recording</string>
+    <string name="chat_audio">Sound</string>
+    <string name="chat_position">Location</string>
+
+    <string name="unspport_message_type">暂不支持此消息类型</string>
+    <string name="message_is_null">消息不能为空</string>
+
+
+    <string name="chat_cannotFindResult">Sorry, Cannot find the result</string>
+    <string name="chat_bottom_picture">Picture</string>
+    <string name="chat_bottom_camera">Photo</string>
+    <string name="chat_bottom_location">Location</string>
+
+    <string name="chat_emotion">Expression</string>
+    <string name="chat_pleaseCheckNetwork">Please check the network</string>
+    <string name="chat_activity_loadMessagesFinish">Conversation record has been load</string>
+    <string name="chat_record_button_haveRead">Have read</string>
+    <string name="chat_record_button_slideUpToCancel">Cancel sending</string>
+    <string name="chat_record_button_releaseToCancel">Cancel recording</string>
+    <string name="chat_sessionPausedTips">Stop conversation</string>
+    <string name="chat_activity_select_picture">Choose the picture</string>
+    <string name="chat_cloudCodeNotDeployTips">Cloud code has not been set up</string>
+    <string name="chat_record_button_pleaseSayMore">Say more～</string>
+
+    <string name="chat_pull_to_refresh">Refresh</string>
+    <string name="chat_release_to_refresh">Refresh</string>
+    <string name="chat_refreshing">Refreshing…</string>
+
+    <string name="load_more_footer_hint_normal">Check more</string>
+
+    <string name="login">Join </string>
+    <string name="login_null_name_tip">请输入用户名</string>
+</resources>
